@@ -1,0 +1,56 @@
+# Local configuration and private research artifacts
+.env
+.env.*
+*.env
+!.env.example
+.private/
+output/
+tmp/
+.claude/
+.codex/
+.agents/
+.vercel/
+.aws/
+.ssh/
+.netrc
+.npmrc
+.pypirc
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+id_rsa*
+id_ed25519*
+credentials*.json
+secrets*.json
+*.db
+*.sqlite
+*.sqlite3
+
+# Python environments and generated files
+.venv/
+.tools/
+graphify-out/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+pytest-cache-files-*/
+.coverage
+htmlcov/
+
+# Frontend dependencies, output, and logs
+node_modules/
+.npm-cache/
+.next/
+out/
+*.tsbuildinfo
+*.log
+
+# Editor and OS files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

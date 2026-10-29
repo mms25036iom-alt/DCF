@@ -1,0 +1,12 @@
+# Tool installations, assistant instructions, and generated graphs
+.tools/
+.agents/
+.codex/
+.claude/
+graphify-out/
+
+# Private configuration and research/export artifacts
+.env
+.env.*
+.private/
+output/

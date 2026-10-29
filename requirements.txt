@@ -1,0 +1,14 @@
+# Vercel Python service runtime. Development tooling is pinned in pyproject.toml.
+fastapi==0.143.0
+httpx==0.28.1
+openpyxl==3.1.5
+pydantic==2.14.1
+pydantic-settings==2.15.0
+pypdf==6.21.2
+certifi==2026.10.19
+uvicorn==0.53.0
+yfinance==1.7.0
+beautifulsoup4==4.15.0
+reportlab==5.1.0
+markdown-it-py==4.2.0
+cryptography==50.0.2
